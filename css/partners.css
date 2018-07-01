@@ -1,0 +1,28 @@
+.partners {
+  grid-area: partners;
+  padding: 20px;
+  grid-template-areas: "partners-caption" "partners";
+  grid-row-gap: 20px; 
+  max-width: 1400px;
+  margin: 0 auto;
+  border-radius: 25px;  
+}
+
+.partners__caption {
+  grid-area: partners-caption;
+  font-size: 300%;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
+}
+
+.partners__wrapper {
+  grid-area: partners;
+  display: grid;
+  margin: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  grid-column-gap: 30px;
+  align-items: center;
+  justify-items: center;
+}

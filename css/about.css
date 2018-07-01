@@ -1,0 +1,45 @@
+.about {
+  grid-area: about;
+  padding: 15px;
+  color: white;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.about__caption {
+  font-size: 300%;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
+}
+
+.about__text {
+  font-size: 150%;
+  margin: 20px;
+  text-align: center;
+}
+
+.register-button {
+  display: block;
+  padding: 10px 0;
+  width: 220px;
+  font-family: 'Gwent';
+  color: white;
+  border: none;
+  background: #0D61BC;
+  font-size: 30px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  background: linear-gradient(180deg, #a45089 33%, #f39ca5 66%, #f1b5bc);
+  cursor: pointer;
+  margin: 10px auto; 
+}
+
+.register-link {
+  text-decoration: none;
+}
+
+.register-button:hover {
+  background: linear-gradient(180deg, #962672 33%, #ee6371 66%, #eb818d); 
+}

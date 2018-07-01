@@ -1,0 +1,67 @@
+.header {
+  grid-area: header;
+  display: grid;
+  grid-template-areas: "logo nav";
+  grid-template-columns: 25% 70%;
+  grid-column-gap: 5%;
+  background: linear-gradient(180deg, #a45089 33%, #f39ca5 66%, #f1b5bc);    
+  padding: 0 15px;
+}
+
+.header__logo {
+  grid-area: logo;
+  align-self: center;
+  justify-self: center;
+}
+
+.header__logo-img {
+  width: 100%;
+}
+
+.nav {
+  grid-area: nav;
+  align-self: center;
+}
+
+.nav__global {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+}
+
+.nav__item {
+  list-style-type: none;
+}
+
+.nav__item-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 120%;
+  color: white;
+}
+
+.nav__item-link_mobile {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 120%;
+  color: black;
+}
+
+.nav__item-link:hover {
+  color: black;
+}
+
+.responsive_menu {
+  display: none;
+}
+
+.nav-mobile {
+  grid-area: nav-mobile;
+  display: none;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: url(../img/menu.png) no-repeat 50% 50%;
+  outline: none;
+  cursor: pointer;
+}

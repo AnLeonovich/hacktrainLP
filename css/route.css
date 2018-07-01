@@ -1,0 +1,65 @@
+.route {
+  grid-area: route;
+  display: grid;
+  grid-template-areas: "caption caption" "agenda map";
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 15px;   
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-radius: 25px;   
+}
+
+.route__caption {
+  grid-area: caption;
+  font-size: 300%;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
+}
+
+.route__agenda {
+  grid-area: agenda;
+}
+
+.route__agenda_caption,
+.route__map_caption {
+  color: white;
+  font-size: 200%;
+  text-align: center;
+  text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+.route__map {
+  grid-area: map;
+}
+
+.route__agenda_description {
+  margin: 10px;
+}
+
+.route__agenda_description-date {
+  font-size: 150%;
+  list-style-type: none;
+}
+
+.route__agenda_description-time {
+  list-style-type: none;
+  color: white;
+  font-size: 100%;
+  margin-left: 15px;
+}
+
+.map__wrapper {
+  max-width: 550px;
+  height: 550px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.map__map {
+  border:0;
+  width: 100%;
+  height: 100%;
+}

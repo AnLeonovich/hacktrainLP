@@ -1,0 +1,45 @@
+.mentors {
+  grid-area: mentors;
+  max-width: 1400px;
+  margin: 15px auto;
+}
+
+.mentors__caption {
+  font-size: 300%;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
+}
+
+.mentors__photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  padding: 20px 50px;
+}
+
+.mentors__photos_item {
+  padding: 10px;
+}
+
+.mentors__photos_item-img {
+  background-size: contain;
+  width: 100%;
+  border-radius: 15px;
+  height: 100%;
+}
+
+.mentors__photos_item-wrapper {
+  overflow: hidden;
+  min-height: 100px;
+  max-height: 380px;
+}
+
+.mentors__photos_item-name {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  font-size: 140%;
+}

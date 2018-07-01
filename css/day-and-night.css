@@ -1,0 +1,92 @@
+.background-day {
+  background: url(../img/bg-day.png);
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: cover;
+}
+
+.background-night {
+  background: url(../img/bg-night.png);
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: cover;
+}
+
+.moon-night {
+  background: url(../img/moon.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+.sun {
+  background: url(../img/sun.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+.rocks_1-night {
+  background: url(../img/rocks_1-night.png);
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: contain;
+}
+
+.rocks_1-day {
+  background: url(../img/rocks_1-day.png);
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: contain;
+}
+
+.rocks_2-night {
+  background: url(../img/rocks_2-night.png);
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: contain;
+}
+
+
+.rocks_2-day {
+  background: url(../img/rocks_2-day.png);
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: contain;
+}
+
+.rails-day {
+  background: url(../img/rails-day.png);
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: contain;
+}
+
+.rails-night {
+  background: url(../img/rails-night.png);
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: contain;
+}
+
+.ground-day {
+  background: #a57219;
+}
+
+.ground-night {
+  background: linear-gradient(180deg, #a45089 33%, #f39ca5 66%, #f1b5bc);
+}
+
+.train-night {
+  background: url(../img/train-night.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+}
+
+.train-day {
+  background: url(../img/train-day.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+}

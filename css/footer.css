@@ -1,0 +1,11 @@
+.footer {
+  grid-area: footer;
+  background: black;
+}
+
+.footer-text {
+  font-size: 120%;
+  padding: 10px;
+  text-align: center;
+  color: #f397a4;
+}
